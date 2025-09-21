@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Jeet Parab's Blogs"
+  navbar:
+    right:
+        - href: https://jeetparab2512.github.io
+          text: Homepage
+
+format:
+  html:
+    theme:
+      light: [litera, style.scss]
+      dark: [darkly, style-dark.scss]
+    highlight-style: a11y-dark
+    mainfont: "Roboto"
+    code-copy: true
+    code-overflow: wrap
+    
+
+
+execute:
+  freeze: auto
